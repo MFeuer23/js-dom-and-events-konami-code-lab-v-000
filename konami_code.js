@@ -5,7 +5,7 @@ let index = 0;
 
 
 
-document.body.addEventListener('keydown', 
+
   function init(e) {
     const key = parseInt(e.detail || e.which);
  
@@ -21,4 +21,5 @@ document.body.addEventListener('keydown',
       index = 0;
     }
   }
-);
+  
+document.body.addEventListener('keydown', init);
