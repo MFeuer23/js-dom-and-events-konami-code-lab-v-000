@@ -19,5 +19,5 @@ document.body.querySelector('input').addEventListener('keydown',
       index = 0;
     }
   }
+);
 
-document.body.querySelector('input').addEventListener('keydown', init());
