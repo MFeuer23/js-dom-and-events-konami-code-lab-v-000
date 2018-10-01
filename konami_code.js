@@ -20,5 +20,6 @@ let index = 0;
       index = 0;
     }
   }
-);
+  
+document.body.addEventListener('keydown', );
 
