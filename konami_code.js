@@ -5,7 +5,7 @@ let index = 0;
 
 
 
-document.querySelector('input').addEventListener('keydown', 
+document.body.addEventListener('keydown', 
   function init(e) {
     const key = parseInt(e.detail || e.which);
     if (e.which === 71) {
