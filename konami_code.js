@@ -5,7 +5,8 @@ let index = 0;
 
 
 
-document.querySelector('input').addEventListener('keydown', function(e) {
+document.querySelector('input').addEventListener('keydown', 
+  function init(e) {
   if (e.which === 71) {
     console.log('default prevented');
     return e.preventDefault();
