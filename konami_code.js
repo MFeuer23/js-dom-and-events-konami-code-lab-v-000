@@ -6,20 +6,22 @@ let index = 0;
 
 
   function init() {
-    document.body.addEventListener('keydown', function(e));
-    const key = parseInt(e.detail || e.which);
+    document.body.addEventListener('keydown', function(e) {
+      const key = parseInt(e.detail || e.which);
  
-    if (key === code[index]) {
-      index++;
+      if (key === code[index]) {
+        index++;
  
-      if (index === code.length) {
-        alert("Hurray!");
+        if (index === code.length) {
+          alert("Hurray!");
  
+          index = 0;
+        }
+      } else {
         index = 0;
       }
-    } else {
-      index = 0;
-    }
+    });
+
   }
   
 
