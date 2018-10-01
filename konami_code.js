@@ -22,5 +22,5 @@ let index = 0;
     }
   }
   
-document.body.addEventListener('keydown', function init(e));
+document.body.addEventListener('keydown', init(e));
 
